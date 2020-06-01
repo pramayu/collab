@@ -26,12 +26,12 @@ business:
                 categori:
                     name
 
-                looking_expert_in:
+                lookingexpertin:
                     field
                     experience
 
             # after proposal completed
-            plan_business:
+            planbusiness:
                 business_model
                 target_market
                 competitor
@@ -57,3 +57,5 @@ business:
 investation:
     skip
     
+requestcapital:
+    skip
