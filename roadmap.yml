@@ -1,0 +1,59 @@
+user: 
+    email
+    username
+    phone
+    password
+        user_attr:
+            expert_field
+            role:
+                admin
+                expert
+                investor
+                mentor
+        histori:
+            business
+
+business:
+    type #paid or shared-property
+    mentor:
+        discuss
+    proposal:
+        development:
+            title
+            description
+            mission
+            benefit
+                categori:
+                    name
+
+                looking_expert_in:
+                    field
+                    experience
+
+            # after proposal completed
+            plan_business:
+                business_model
+                target_market
+                competitor
+
+            footage:
+                description
+                url
+
+            planning:
+
+            members:
+
+            discuss:
+                problem
+                solution
+                conclusion
+            schedule:
+
+        #after produk completed
+        investasi:
+            skip
+
+investation:
+    skip
+    
