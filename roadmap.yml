@@ -2,7 +2,6 @@ user:
     email
     username
     phone
-    password
         user_attr:
             expert_field
             role:
@@ -59,3 +58,10 @@ investation:
     
 requestcapital:
     skip
+
+
+
+
+signup_user => active_user => verify_user => dashboard
+
+signin_user(otp) => verify_user
